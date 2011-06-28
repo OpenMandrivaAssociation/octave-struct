@@ -1,6 +1,6 @@
 %define	pkgname struct
 %define name	octave-%{pkgname}
-%define version 1.0.8
+%define version 1.0.9
 %define release %mkrel 1
 
 Summary:	Additional structure manipulation functions for Octave
