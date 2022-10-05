@@ -2,10 +2,10 @@
 
 Summary:	Additional structure manipulation functions
 Name:		octave-%{octpkg}
-Version:	1.0.17
+Version:	1.0.18
 Release:	1
 Url:		https://octave.sourceforge.io/%{octpkg}/
-Source0:	http://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
+Source0:	https://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
 License:	GPLv3+
 Group:		Sciences/Mathematics
 
