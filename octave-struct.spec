@@ -4,7 +4,7 @@ Summary:	Additional structure manipulation functions
 Name:		octave-%{octpkg}
 Version:	1.0.18
 Release:	1
-Url:		https://octave.sourceforge.io/%{octpkg}/
+Url:		https://packages.octave.org/%{octpkg}/
 Source0:	https://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
 License:	GPLv3+
 Group:		Sciences/Mathematics
@@ -18,8 +18,6 @@ Requires(postun): octave
 
 %description
 Additional structure manipulation functions.
-
-This package is part of community Octave-Forge collection.
 
 %files
 %license COPYING
