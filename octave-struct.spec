@@ -1,15 +1,15 @@
 %global octpkg struct
 
 Summary:	Additional structure manipulation functions
-Name:		octave-%{octpkg}
+Name:		octave-struct
 Version:	1.0.18
-Release:	1
-Url:		https://packages.octave.org/%{octpkg}/
-Source0:	https://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
+Release:	2
 License:	GPLv3+
 Group:		Sciences/Mathematics
+Url:		https://packages.octave.org/struct/
+Source0:	https://downloads.sourceforge.net/octave/struct-%{version}.tar.gz
 
-BuildRequires:	octave-devel >= 4.0.0
+BuildRequires:  octave-devel >= 4.0.0
 
 Requires:	octave(api) = %{octave_api}
 
@@ -22,19 +22,16 @@ Additional structure manipulation functions.
 %files
 %license COPYING
 %doc NEWS
-%dir %{octpkglibdir}
-%{octpkglibdir}/*
 %dir %{octpkgdir}
 %{octpkgdir}/*
+%dir %{octpkglibdir}
+%{octpkglibdir}/*
 %{_metainfodir}/*.metainfo.xml
 
 #---------------------------------------------------------------------------
 
 %prep
 %autosetup -p1 -n %{octpkg}-%{version}
-
-# remove backup files
-#find . -name \*~ -delete
 
 %build
 %set_build_flags
