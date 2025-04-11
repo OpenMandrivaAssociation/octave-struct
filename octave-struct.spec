@@ -3,7 +3,7 @@
 Summary:	Additional structure manipulation functions
 Name:		octave-struct
 Version:	1.0.18
-Release:	2
+Release:	3
 License:	GPLv3+
 Group:		Sciences/Mathematics
 Url:		https://packages.octave.org/struct/
